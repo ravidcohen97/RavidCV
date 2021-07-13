@@ -1,0 +1,171 @@
+header {
+  height: 80px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 80px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+body {
+  width: 75%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: rgb(12, 12, 12);
+}
+#some {
+  width: 95%;
+  margin: 0 auto;
+  font-family: "Frijole", cursive;
+  //   font-family: "Wallpoet", cursive;
+  color: rgb(43, 170, 43);
+  font-size: 48px;
+}
+img {
+  width: 110px;
+  height: 110px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
+img:hover {
+  border: 2px solid rgb(43, 170, 43);
+}
+.link {
+  font-family: "Frijole", cursive;
+  //   font-family: "Wallpoet", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  margin: 0 auto;
+  transition: 0.5s;
+}
+
+.link:hover {
+  text-shadow: rgb(43, 170, 43) 3px 3px;
+  transform: rotate(5deg);
+}
+a {
+  width: 99%;
+  height: 99%;
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  text-shadow: rgb(43, 170, 43) 3px 3px;
+  transform: rotate(5deg);
+}
+.h {
+  color: white;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  h2 {
+    margin: 0;
+    font-size: 42px;
+    text-shadow: rgb(43, 170, 43) 3px 3px;
+    border-bottom: 2px solid white;
+    width: auto;
+  }
+  span {
+    font-size: 28px;
+    text-shadow: 1px 1px rgb(128, 236, 95);
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  .h1 {
+    font-size: 24px;
+    font-weight: 100;
+  }
+}
+.contact {
+  color: rgb(255, 255, 255);
+  font-size: 38px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 45px;
+  letter-spacing: 1px;
+  text-shadow: white 1px 1px;
+  .h1 {
+    text-shadow: rgb(43, 170, 43) 3px 3px;
+  }
+  .h2 {
+    margin: 0;
+    font-size: 64px;
+    text-shadow: rgb(43, 170, 43) 3px 3px;
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .link {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .link {
+    font-size: 20px;
+  }
+  header {
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  img {
+    top: 5px;
+    left: 5px;
+    width: 75px;
+    height: 75px;
+  }
+  #some {
+    font-size: 24px;
+  }
+  .h {
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    h2 {
+      margin: 0;
+      font-size: 34px;
+      text-shadow: rgb(43, 170, 43) 3px 3px;
+      border-bottom: 2px solid white;
+      width: auto;
+    }
+    span {
+      font-size: 22px;
+      text-shadow: 1px 1px rgb(128, 236, 95);
+      font-weight: bolder;
+      letter-spacing: 1px;
+      line-height: 20px;
+    }
+    .h1 {
+      font-size: 18px;
+      font-weight: 100;
+      padding: 5px;
+    }
+  }
+  body {
+    width: 100%;
+  }
+  .contact {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 45px;
+    letter-spacing: 1px;
+    text-shadow: white 1px 1px;
+    padding: 5px;
+
+    .h1 {
+      text-shadow: rgb(43, 170, 43) 3px 3px;
+    }
+    .h2 {
+      margin: 0;
+      font-size: 36px;
+      text-shadow: rgb(43, 170, 43) 3px 3px;
+      margin: 20px 0;
+    }
+  }
+}
